@@ -19,6 +19,8 @@ node server.js
 Mongoose pour typage des data.
 <br>
 Upload on HEROKU
+<br>
+Faire un JSON pour ne pas uploader le dossier node modules
 
 #Divers
 <hr>
