@@ -14,6 +14,7 @@ Lancer via:
 <br>
 node server.js
 
-#todo
+#Todo
 
 Mongoose pour typage des data.
+Upload on HEROKU
