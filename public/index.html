@@ -36,10 +36,12 @@
 				</td>
 				<td>
 					<button type="button" ng-hide="boutonAjout" ng-click="addContact(contact)" class="btn btn-primary cssPourTd">Add</button>
+					<button type="button" ng-show="boutonCancel" ng-click="clear()" class="btn btn-danger cssPourTd">Cancel</button>
 				</td>
 				<td>
 					<button type="button" ng-show="boutonEdit" ng-click="updateContact(contact._id)" class="btn btn-info cssPourTd">Update</button>
 				 </td>
+
 			</tr>
 			<tr ng-repeat="contact in contacts" >
 				<td>{{contact._id}}</td>

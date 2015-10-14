@@ -85,6 +85,8 @@ app.controller("appCtrl", function($scope,$http) {
 			$scope.contact=response;
 			$scope.boutonAjout= true;
 			$scope.boutonEdit= true;
+			$scope.boutonCancel= true;
+
 
 			//refresh();
 			//console.log('contact avec ID: '+id+' mis a jour')
@@ -94,8 +96,18 @@ app.controller("appCtrl", function($scope,$http) {
 		$http.put('/contactlist/'+$scope.contact._id,$scope.contact).success(function(response){
 			$scope.boutonAjout= false;
 			$scope.boutonEdit= false;
+			$scope.boutonCancel= false;
+			
 			 refresh();
-
 		})
+	}
+
+	$scope.clear=function(){
+		$scope.contact='';
+		$scope.boutonAjout= false;
+		$scope.boutonEdit= false;
+		 $scope.boutonCancel= false;
+
+		refresh();
 	}
 });
