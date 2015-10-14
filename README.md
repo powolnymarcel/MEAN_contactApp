@@ -11,22 +11,17 @@ Requis :
 <hr>
 
 Lancer via:
-<br>
-node server.js
-<br>
-Voir résultat sur http://localhost:3000
+* node server.js
+* Voir résultat sur http://localhost:3000
 
 <br>
 * Sans oublier de lancer "mongod" avant
 
 #Todo
-<hr>
-Mongoose pour typage des data.
-<br>
-Upload on HEROKU
-<br>
-Faire un JSON pour ne pas uploader le dossier node modules
-
+* Mongoose pour typage des data.
+* Upload on HEROKU
+* Faire un JSON pour ne pas uploader le dossier node modules
+* Ajouter des Bloody commentaires...
 #Divers
 <hr>
 Usage de https://bootswatch.com/
