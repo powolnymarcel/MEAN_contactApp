@@ -13,6 +13,8 @@ Requis :
 Lancer via:
 <br>
 node server.js
+Voir résultat sur http://localhost:3000
+
 <br>
 * Sans oublier de lancer "mongod" avant
 
