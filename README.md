@@ -15,7 +15,11 @@ Lancer via:
 node server.js
 
 #Todo
-
+<hr>
 Mongoose pour typage des data.
 <br>
 Upload on HEROKU
+
+#Divers
+<hr>
+Usage de https://bootswatch.com/
