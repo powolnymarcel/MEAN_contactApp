@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html ng-app="contactApp">
+<head>
+	<title>Contac app MEAN</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container" ng-controller="appCtrl">
+	<div class="row">
+	<h1>Contac list app </h1>
+		
+	<table class="table table-bordered table-striped">
+		<caption>Contact list app.</caption>
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>Name</th>
+				<th>Email</th>
+				<th>Tel</th>
+				<th>Actions</th>
+				<th>&nbsp;</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+			<td></td>
+				<td> 
+				<input type="text"  class="form-control" ng-model="contact.name">
+				</td>
+				<td> 
+				<input type="text" class="form-control" ng-model="contact.email">
+				</td>
+				<td> 
+				<input type="text" class="form-control" ng-model="contact.tel">
+				</td>
+				<td>
+					<button type="button" ng-hide="boutonAjout" ng-click="addContact(contact)" class="btn btn-primary cssPourTd">Add</button>
+				</td>
+				<td>
+					<button type="button" ng-show="boutonEdit" ng-click="updateContact(contact._id)" class="btn btn-info cssPourTd">Update</button>
+				 </td>
+			</tr>
+			<tr ng-repeat="contact in contacts" >
+				<td>{{contact._id}}</td>
+				<td>{{contact.name}}</td>
+				<td>{{contact.email}}</td>
+				<td>{{contact.tel}}</td>
+				<td >
+					<button type="button" class="btn btn-danger cssPourTd" ng-click="remove(contact._id,contact.name)">Remove</button>
+				</td>
+				<td >
+					<button type="button" class="btn btn-warning cssPourTd" ng-click="edit(contact._id)">Edit</button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	</div>	
+</div>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="controller/controller.js"></script>
+</body>
+</html>
