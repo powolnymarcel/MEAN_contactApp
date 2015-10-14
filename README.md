@@ -13,7 +13,8 @@ Requis :
 Lancer via:
 <br>
 node server.js
-
+<br>
+* Sans oublier de lancer "mongod" avant.
 #Todo
 <hr>
 Mongoose pour typage des data.
