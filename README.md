@@ -13,8 +13,6 @@ Requis :
 Lancer via:
 * node server.js
 * Voir résultat sur http://localhost:3000
-
-<br>
 * Sans oublier de lancer "mongod" avant
 
 #Todo
