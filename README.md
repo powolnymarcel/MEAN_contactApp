@@ -17,9 +17,15 @@ Lancer via:
 
 #Todo
 * Mongoose pour typage des data.
-* Upload on HEROKU
+* DONE ->>>>>>>>>>>>>>>>Upload on HEROKU
 * Faire un JSON pour ne pas uploader le dossier node modules
 * Ajouter des Bloody commentaires...
 #Divers
 <hr>
 Usage de https://bootswatch.com/
+
+
+#A voir ici (DEMO)
+<hr>
+Heroku + Mongolab.
+https://floating-atoll-6069.herokuapp.com
