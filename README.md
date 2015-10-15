@@ -10,10 +10,10 @@ Requis :
 </ul>
 <hr>
 
-Lancer via:
+Lancer via (local):
+* Lancer "mongod" 
 * node server.js
 * Voir résultat sur http://localhost:3000
-* Sans oublier de lancer "mongod" avant
 
 #Todo
 * Mongoose pour typage des data.
