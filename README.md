@@ -17,7 +17,7 @@ Lancer via:
 
 #Todo
 * Mongoose pour typage des data.
-* Faire un JSON pour ne pas uploader le dossier node modules
+* Faire un JSON pour ne pas uploader le dossier node modules (npm init)
 * Ajouter des Bloody commentaires...
 <br>
 
