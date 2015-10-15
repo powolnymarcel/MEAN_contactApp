@@ -20,12 +20,15 @@ Lancer via:
 * Faire un JSON pour ne pas uploader le dossier node modules
 * Ajouter des Bloody commentaires...
 <br>
+
 Done
+
 <ul>
 <li>Upload on HEROKU
 </li>
 <li>Utilisation de MongoLab</li>
 </ul>
+
 #Divers
 <hr>
 Usage de https://bootswatch.com/
