@@ -17,10 +17,14 @@ Lancer via:
 
 #Todo
 * Mongoose pour typage des data.
-* DONE ->>>>>>>>>>>>>>>>Upload on HEROKU
 * Faire un JSON pour ne pas uploader le dossier node modules
 * Ajouter des Bloody commentaires...
-
+Done
+<ul>
+<li>Upload on HEROKU
+</li>
+<li>Utilisation de MongoLab</li>
+</ul>
 #Divers
 <hr>
 Usage de https://bootswatch.com/
